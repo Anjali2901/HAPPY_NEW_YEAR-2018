@@ -1,0 +1,41 @@
+@import
+  url('https://fonts.googleapis.com/css?family=Lobster' );
+body{
+   font-family:Lobster;
+  color:white;
+  background-image:url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=750&q=80');
+  background-size:cover;
+}
+#d1{
+    height: 200px;
+   line-height: 200px;
+  text-align: center;
+  border: 4px dashed #f69c55;
+ font-size:70px;
+    background: none;
+    position: relative;
+   animation-direction: alternate;
+  animation-iteration-count: infinite;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;    
+    animation-delay: 4s;
+     animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes example {
+  
+    0%   {top: 0px;color: red;}
+    25%  {top: 20px;color: yellow;}
+    50%  {top: 40px;color: blue;}
+    100% {top: 60px;color: green;}
+}
+@keyframes example {
+     0%   {top: 0px;color: red;}
+    25%  {top: 20px;color: yellow;}
+    50%  {top: 40px;color: blue;}
+    100% {top: 60px;color: green;}
+}
